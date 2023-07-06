@@ -466,3 +466,72 @@ color: #9CA3AF;
   background-color: #240053;
   transition: 0.2s all linear;
 }
+
+
+/* ============ */
+/* Company Section */
+
+.company {
+ background: #FFFDF2;
+ color: #240053;
+ display: flex;
+  width: 100%;
+  padding: 30px 100px;
+  position: absolute;
+}
+
+.invest h1{
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  width: 60%;
+  padding-top: 40px;
+}
+
+.invest p {
+  width: 55%;
+  padding: 40px 0;
+  line-height: 30px;
+  font-style: 24px;
+  font-weight: 500;
+}
+
+.invest span {
+  color: #0D9488;
+}
+
+.invest-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #8807F7;
+  width: 350px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.invest-btn a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #8807F7;
+  
+}
+
+.invest-btn img {
+  width: 5px;
+  height: 5px;
+  background: #8807F7;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+  padding: 5px;
+  align-items: center;
+}
+
+.company img {
+  width: 90%;
+ top: -50px;
+ align-items: center;
+ justify-content: center;
+  padding-right: 50px;
+}
