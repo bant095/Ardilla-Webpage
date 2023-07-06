@@ -30,6 +30,7 @@
     transition: 0.5s;
     top: 0;
     width: 100%;
+    z-index: 1000;
     right: 0;
   }
 
@@ -114,4 +115,58 @@ a .btn {
 
 .header-right span img{
     background: transparent;
+}
+
+/* -============== */
+/* HERO SECTION */
+
+.hero-section {
+    background: url(./Images/background.png);
+    color: #fff;
+    /* min-height: 900px; */
+    top: 70px;
+    position:absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.hero-text {
+  padding-top: 50px;
+  font-size: 90px;
+  font-weight: 800;
+ background: -webkit-linear-gradient(left, #FFEB35, #19FD82);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.hero-section p {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 20px 300px;
+  line-height: 32px;
+}
+
+.hero-section .btn {
+  background: #fff;
+  color: #240053;
+  margin-top: 20px;
+  font-weight: 600;
+  width: 150px;
+  Padding: 16px;
+}
+
+.hero-section .btn:hover {
+  background: #8807F7;
+  color: #fff;
+  transition: 0.2s all linear;
+}
+
+.hero-section img {
+ width: 70%;
+  bottom: 0;
 }
