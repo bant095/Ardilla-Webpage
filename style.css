@@ -324,7 +324,145 @@ height: 50px;
 
 /* transparency-right  */
 .transparency-right {
-  width: 50%;
+  width: 558px;
+  height: 380px;
+  margin-top: -15px;
+  margin-left: 20px;
   display: flex;
-  background-color: rgb(255, 255, 194);
+  color: #fff;
+  border-radius: 20px;
+  background-color: #240053;
+}
+
+/* trans left */
+.trans-left {
+  padding: 40px 50px;
+  width: 50%;
+}
+
+.trans-left h2 {
+  font-size: 14px;
+  font-weight: 500;
+  top: 70px;
+  padding-bottom: 30px;
+}
+
+.trans-left p {
+  font-size: 9px;
+  color: #9CA3AF;
+  padding: 10px 0;
+}
+
+.trans-left .monthly {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  align-items: center;
+  width: 144.28px;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.monthly a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.monthly img {
+  width: 15px;
+}
+
+.trans-left form input {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+  color: #fff;
+}
+
+.trans-left form input::placeholder {
+  color: #fff;
+}
+
+
+
+
+/* trans-right */
+
+.trans-right {
+  color: #240053;
+  width: 50%;
+  width: 247.23px;
+  height: 295.92px;
+  justify-content: center;
+  align-items: end;
+  left: -0.17px;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  background: #fff;
+  margin-top: 85px;
+}
+
+.total {
+  padding-bottom: 10px;
+}
+.total p {
+  font-size: 7px;
+  color: #9CA3AF;
+}
+
+.savings {
+  color: #9CA3AF;
+  font-size: 8px;
+  padding-bottom: 10px;
+}
+
+.savings span {
+  font-weight: 600;
+}
+
+.total h3 {
+  color: #3D0072;
+  font-size: 12px;
+}
+
+.total span {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.trans-right img {
+  width: 200px;
+  margin-top: -20px;
+}
+
+.chart {
+  display: flex;
+ justify-content: space-between;
+ font-size: 7px;
+ font-weight: 500;
+ width: 192px;
+color: #9CA3AF;
+}
+
+.chart span {
+  color: #3D0072;
+}
+
+.trans-right .btn {
+  cursor: pointer;
+    background: #8807F7;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: #fff;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.transparency .btn:hover  {
+  color: #fff;
+  background-color: #240053;
+  transition: 0.2s all linear;
 }
