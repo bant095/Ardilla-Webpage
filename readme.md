@@ -24,6 +24,7 @@ Get Started
 Products
 
 Save
+Save your money daily, weekly, or monthly. No pressure. We work at your pace
 Save at your own pace!
 
 
