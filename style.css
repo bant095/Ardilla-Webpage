@@ -731,3 +731,43 @@ box-shadow: -1px -8px 25px -6px rgba(136,7,247,0.85);
   border-radius: 10px;
   align-items: center;
 }
+
+
+/* ============== */
+/* Web Section */
+
+.web-container {
+  width: 100%;
+  background: #F8FAFC;
+  padding: 60px 100px;
+  align-items: center;
+}
+
+.logos {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-line {
+  border-right: 2px solid black;
+  height: 30px;
+  width: 10px;
+}
+
+.website {
+  background: #F3F4F6;
+  width: 965px;
+  height: 407px;
+}
+
+.website-head {
+  width: 550px;
+  height: 120px;
+  background-color: black;
+}
+
+.website header {
+  position: inherit;
+}
