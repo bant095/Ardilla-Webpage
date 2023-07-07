@@ -704,12 +704,30 @@ box-shadow: -1px -8px 25px -6px rgba(136,7,247,0.85);
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(120px, auto));
-  gap: 1rem;
-  padding: 50px;s
+  gap: 2rem;
+  position: relative;
+  margin-top: 80px;
   width: 100%;
 }
 
+  .word-grid .grid1 img{
+  position: relative;
+  width: 450px;
+  gap: 2rem;
+  margin-right: 20px;
+  align-items: center;
+  background-image: -webkit-linear-gradient(90deg, #608F08 5%, #CBF705 100%);
+}
+
+.word-grid .grid1 .grid-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+}
+
 .word-grid img {
-  width: 410px;
-  background-color: red;
+  width: 320px;
+  border-radius: 10px;
+  align-items: center;
 }
