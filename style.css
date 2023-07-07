@@ -805,9 +805,9 @@ height: 520px;
 .transition-section {
    width: 100%;
   background: rgb(247,194,7);
-background: radial-gradient(circle, rgba(247,194,7,1) 0%, rgba(84,11,136,1) 43%, rgba(27,1,50,1) 100%);
+background: radial-gradient(circle, rgb(130, 27, 161) 0%, #540b88 43%, rgba(27,1,50,1) 100%);
   padding: 60px 100px;
-  height: 828px;
+  height: 1000px;
   align-items: center;
 }
 
@@ -832,5 +832,98 @@ background: radial-gradient(circle, rgba(247,194,7,1) 0%, rgba(84,11,136,1) 43%,
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(120px, auto));
-  gap: 20rem;
+  gap: 5rem;
+  text-align: left;
+  
+}
+
+.values h1 {
+  font-weight: 900;
+  font-size: 80px;
+  text-align: left;
+}
+
+.values p {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
+.value-box1 {
+  text-align: left;
+  padding-left: 30px;
+  justify-content: center;
+  width: 356px;
+  height: 537px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 70px 70px 0px 70px;
+  background: #D2FFDE;
+  color: #33593D;
+}
+
+.value-box1 span {
+  background-color: #33593D;
+  color: #fff;
+  width: 73px;
+  padding: 5px;
+}
+
+
+
+.value-box2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 30px;
+  justify-content: center;
+  width: 356px;
+  height: 537px;
+  border-radius: 70px 70px 70px 0px;
+  background: #C8C1FD;
+  color: #282733;
+}
+
+.value-box2 span {
+  background-color: #35298A;
+  color: #fff;
+  width: 73px;
+  padding: 5px;
+}
+
+.value-box3 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 30px;
+  justify-content: center;
+  width: 356px;
+  height: 537px;
+  border-radius: 70px 70px 70px 0px;
+  background: #FAF7C3;
+  color: #333228;
+}
+
+.value-box3 span {
+  background-color:#9F9704;
+  color: #fff;
+  width: 73px;
+  padding: 5px;
+}
+
+/* DOWNLOAD */
+.download {
+  background: url(./Images/BACKGROUND2.png) no-repeat center;
+  width: 941px;
+  height: 306.37em;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 100px;
+  bottom: 0;
+  top: -1000;
+  left: 0;
 }
