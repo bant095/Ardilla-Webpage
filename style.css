@@ -672,3 +672,44 @@ box-shadow: -1px -8px 25px -6px rgba(136,7,247,0.85);
   height: 50px;
   box-shadow: 0px 23px 35px 4px  rgba(34,197,94,0.30);
 }
+
+
+/* ============= */
+/* -Word */
+.word {
+  background: #F3F4F6;
+ color: #240053;
+  width: 100%;
+  padding: 60px 100px;
+}
+
+.word-text h1 {
+  font-weight: 900;
+  font-size: 70px;
+  width: 900px;
+  padding-bottom: 30px;
+} 
+
+.word-text h1 span {
+  color: #8807F7;
+}
+
+.word-text p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.word-grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+  gap: 1rem;
+  padding: 50px;s
+  width: 100%;
+}
+
+.word-grid img {
+  width: 410px;
+  background-color: red;
+}
