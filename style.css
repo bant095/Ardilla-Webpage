@@ -474,10 +474,16 @@ color: #9CA3AF;
 .company {
  background: #FFFDF2;
  color: #240053;
- display: flex;
   width: 100%;
   padding: 30px 100px;
-  position: absolute;
+  position: relative;
+  
+}
+
+.invest {
+  /* z-index: 1000; */
+  width: 100%;
+  background: url(./Images/) no-repeat cover cover/center;
 }
 
 .invest h1{
@@ -506,32 +512,127 @@ color: #9CA3AF;
   justify-content: space-between;
   border: 1px solid #8807F7;
   width: 350px;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 20px;
+  cursor: pointer;
+  /* z-index: 300002; */
 }
 
 .invest-btn a {
   font-size: 15px;
   font-weight: 500;
   color: #8807F7;
-  
+  cursor: pointer;
 }
 
 .invest-btn img {
-  width: 5px;
-  height: 5px;
-  background: #8807F7;
+  background-color: #8807F7;
+  color: #fff;
   border-radius: 50%;
   object-fit: cover;
   background-position: center;
-  padding: 5px;
-  align-items: center;
+  padding: 15px;
+  width: 50px;
 }
 
-.company img {
-  width: 90%;
- top: -50px;
+.company .arrow {
+  width: 80%;
+ margin-top: -320px;
  align-items: center;
  justify-content: center;
-  padding-right: 50px;
+ margin-left: 80px;
+}
+
+.invest-btn:hover {
+  background: #8807F7;
+  color: #fff;
+}
+
+.invest-btn img:hover {
+  background: #fff;
+  color: #8807F7;
+}
+
+/* ================================ */
+/*------------ Learn -------- */
+
+.learn {
+top: 0;
+background: url(./Images/BACK\ 1.png);
+background-position: center;
+background-repeat: no-repeat;
+object-fit: contain;
+color: #fff;
+width: 100%;
+padding: 30px 100px;
+}
+
+.access-section h1{
+  padding: 30px 0;
+  font-size: 60px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.access-section p {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 500;
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+.access-section .invest-btn {
+  border: 1px solid #fff;
+ 
+}
+
+.access-section .invest-btn a {
+  color: #fff;
+}
+
+.access-section .invest-btn img {
+  background-color: #fff;
+}
+
+.access-section .invest-btn:hover {
+  border: 1px solid #8807F7;
+}
+
+.access-container {
+  display: grid;
+  align-items: end;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, auto));
+  gap: 5.5rem;
+  padding: 50px;
+  background: #29014B;
+  color: #fff;
+  /* height: 1001px; */
+  margin-top: 50px;
+  justify-content: center;
+  -webkit-box-shadow: 0px 5px 25px 2px rgba(136,7,247,0.72); 
+  box-shadow: 0px 5px 25px 2px rgba(136,7,247,0.72);
+}
+
+.access {
+ gap: 32px;
+ width: 358.19px;
+ height: 361.33px;
+ padding: 32px 50px 32px 24px;
+}
+
+.access h2 {
+  font-weight: 700;
+  font-size: 20px;
+  padding: 30px 0;
+}
+
+.access p {
+  padding-bottom: 30px;
+  line-height: 25px;
+  width: 298px;
+}
+
+.access a {
+  color: #fff;
 }
