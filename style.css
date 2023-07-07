@@ -610,15 +610,15 @@ padding: 30px 100px;
   /* height: 1001px; */
   margin-top: 50px;
   justify-content: center;
-  -webkit-box-shadow: 0px 5px 25px 2px rgba(136,7,247,0.72); 
-  box-shadow: 0px 5px 25px 2px rgba(136,7,247,0.72);
+  -webkit-box-shadow: -1px -8px 25px -6px rgba(136,7,247,0.85); 
+box-shadow: -1px -8px 25px -6px rgba(136,7,247,0.85);
 }
 
 .access {
  gap: 32px;
  width: 358.19px;
  height: 361.33px;
- padding: 32px 50px 32px 24px;
+ padding: 32px 50px 12px 94px;
 }
 
 .access h2 {
@@ -635,4 +635,40 @@ padding: 30px 100px;
 
 .access a {
   color: #fff;
+}
+
+.access .access1 {
+  background-color: #EAB308;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 23px 35px 4px rgba(234,179,8,0.30);
+}
+
+.access .access2 {
+  background-color: #E8356D;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 23px 35px 4px rgba(232,53,109,0.30); 
+}
+
+.access .access3 {
+  background-color: #8807F7;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 23px 35px 4px rgba(136,7,247,0.30);
+}
+
+.access .access4 {
+  background-color: #22C55E;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 23px 35px 4px  rgba(34,197,94,0.30);
 }
