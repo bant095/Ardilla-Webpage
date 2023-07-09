@@ -1,0 +1,397 @@
+@media (max-width: 1024px) {
+  header {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    width: 724px;
+    gap: 5rem;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+  }
+
+  section {
+    width: 724px;
+  }
+
+  #menu-icon {
+    display: initial;
+  }
+
+  .header-right {
+    width: 60%;
+    align-items: center;
+    margin-right: -80px;
+  }
+
+  .navbar {
+    position: absolute;
+    width: 724px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: #8807f7;
+    row-gap: 1.5rem;
+    padding: 20px;
+    transition: 0.4s all linear;
+    clip-path: circle(0% at 100% 1%);
+    text-align: center;
+  }
+
+  .navbar.active {
+    clip-path: circle(144% at 100% 1%);
+    top: 100%;
+  }
+
+  .navbar a {
+    color: #fff;
+    font-weight: 600;
+    display: block;
+  }
+
+  .hero-section {
+    padding: 20px 30px;
+    width: 724px;
+    display: flex;
+    right: 0;
+    align-items: center;
+  }
+  .hero-text {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .hero-section p {
+    font-size: 13px;
+    line-height: 30px;
+    width: 724px;
+    left: 0;
+    right: 0;
+    padding: 20px 150px;
+  }
+
+  .hero-section .btn {
+    max-width: 130px;
+    padding: 13px;
+    text-align: center;
+    align-items: center;
+    margin-top: 17px;
+    margin-left: 20px;
+  }
+
+  .hero-section img {
+    bottom: 0;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+
+  /* products */
+
+  .products {
+    width: 724px;
+    padding: 20px 30px;
+  }
+  .product-text {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    padding: 20px 70px;
+  }
+
+  .product-left {
+    padding-top: 20px;
+  }
+
+  .product-left h2 {
+    text-align: center;
+  }
+
+  .product-left h4 {
+    text-align: center;
+  }
+
+  .product-left p {
+    text-align: center;
+  }
+
+  .product-list {
+    width: 724px;
+  }
+
+  .product-line {
+    display: none;
+  }
+
+  /* BUSINESS */
+  .business {
+    width: 724px;
+    padding: 20px 30px;
+  }
+
+  .transparency {
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px;
+  }
+
+  .transparency-left {
+    text-align: center;
+  }
+
+  .transparency-left h1 {
+    font-size: 50px;
+    line-height: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 400px;
+    margin-left: -60px;
+  }
+
+  .transparency-left p {
+    font-size: 15px;
+    padding: 20px 10;
+  }
+
+  .transparency-right {
+    top: 0;
+    margin-top: -100px;
+  }
+
+  /* Company */
+
+  .company {
+    padding: 20px 30px;
+    width: 724px;
+    text-align: center;
+    padding-left: 120px;
+  }
+
+  .invest h1 {
+    font-size: 50px;
+    width: 500px;
+  }
+
+  .invest p {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: -90px;
+    width: 80%;
+  }
+
+  .invest-btn {
+    width: 300px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    align-items: center;
+    margin-left: 70px;
+  }
+
+  .invest-btn a {
+    font-size: 13px;
+  }
+
+  .invest-btn img {
+    padding: 12px;
+    width: 40px;
+  }
+
+  .company .arrow {
+    display: none;
+  }
+
+  /* LEARN */
+  .learn {
+    width: 724px;
+  }
+  .access-section {
+    text-align: center;
+  }
+
+  .access-section h1 {
+    padding-top: 50px;
+  }
+
+  .access-section p {
+    text-align: center;
+    width: 500px;
+    padding-left: 20px;
+  }
+
+  .access-section .invest-btn {
+    margin-left: 120px;
+  }
+
+  .access-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    padding-top: 10px;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    width: 600px;
+    margin-left: -40px;
+    height: 1400px;
+  }
+
+  .access {
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 10px;
+  }
+
+  .access p {
+    width: 450px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* Word */
+  .word {
+    width: 724px;
+  }
+
+  .word h1 {
+    font-size: 50px;
+    text-align: center;
+    width: 500px;
+  }
+
+  .word p {
+    width: 500px;
+    text-align: center;
+  }
+
+  .word-grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 2rem;
+  }
+
+  .grid1 {
+    gap: 1rem;
+    margin-bottom: -30px;
+  }
+
+  .word-grid .grid1 .grid-text {
+    position: relative;
+    bottom: 50px;
+  }
+
+  /* WEB */
+  .web-container {
+    width: 724px;
+  }
+
+  .website {
+    width: 600px;
+    margin-left: -60px;
+  }
+
+  .web {
+    width: 700px;
+  }
+
+  .website-head {
+    margin-bottom: 50px;
+  }
+
+  /* Transition */
+
+  .transition-section {
+    width: 724px;
+    height: auto;
+  }
+
+  .values {
+    width: 724px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-left: -80px;
+  }
+
+  .download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    margin-left: -40px;
+    width: 600px;
+    margin-right: 50px;
+  }
+
+  .down-left {
+    text-align: center;
+    margin-left: 350px;
+  }
+
+  .down-left h1 {
+    font-size: 24px;
+    width: 300px;
+  }
+
+  .down-left .btn {
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -40px;
+  }
+
+  .down-right img {
+    width: 300px;
+    top: 0;
+    margin-right: 350px;
+    /* margin-top: -100px;
+    margin-bottom: 160px; */
+  }
+
+  .footer {
+    max-width: 724px;
+    overflow: hidden;
+    padding: 20px 30px;
+  }
+
+  .company-details {
+    padding-top: 30px;
+    padding-left: -200px;
+    width: 600px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+  }
+
+  .company-left {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .company-right {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+}
